@@ -1,0 +1,1290 @@
+{
+  "site": {
+    "brand": "BNA Dev",
+    "logo": "/assets/Images/logo.png",
+    "email": "lehoanghuy11062001@gmail.com",
+    "heroImage": "/art/studio-hero.webp",
+    "headline": {
+      "vi": "Lập trình viên game · Kỹ sư phần mềm · Nhà sáng tạo công nghệ",
+      "en": "Game Developer · Software Engineer · Creative Technologist"
+    },
+    "intro": {
+      "vi": "Xin chào, tôi là",
+      "en": "Hello, I’m"
+    },
+    "subline": {
+      "vi": "Phát triển game, xây dựng hệ thống và tạo ra những sản phẩm số mang trải nghiệm trọn vẹn, sáng tạo và khác biệt.",
+      "en": "Building engaging games, reliable systems and thoughtfully crafted digital experiences."
+    }
+  },
+  "about": {
+    "lead": {
+      "vi": "Một người làm sản phẩm, bắt đầu từ code và luôn quan tâm đến trải nghiệm.",
+      "en": "A product-minded developer who starts with code and cares about every interaction."
+    },
+    "bio": {
+      "vi": "Tôi phát triển gameplay, các hệ thống phía sau trò chơi và giao diện tương tác. Tôi thích thử nghiệm công nghệ mới, hoàn thiện chi tiết và kết hợp sáng tạo với kỹ thuật.",
+      "en": "I work across gameplay, supporting backend systems and interactive UI. My approach combines engineering with experimentation, visual detail and ongoing refinement."
+    },
+    "location": {
+      "vi": "Việt Nam",
+      "en": "Vietnam"
+    },
+    "education": {
+      "vi": "Kỹ thuật phần mềm · Đại học Tôn Đức Thắng (thông tin từ portfolio cũ)",
+      "en": "Software Engineering · Ton Duc Thang University (from original portfolio)"
+    },
+    "cv": ""
+  },
+  "projects": [
+    {
+      "id": "game-challenge-festival",
+      "name": "Game Challenge Festival",
+      "year": "2026",
+      "kind": "flagship",
+      "status": "in-development",
+      "category": {
+        "vi": "Hệ sinh thái mini game",
+        "en": "Mini-game ecosystem"
+      },
+      "description": {
+        "vi": "Nền tảng game gồm nhiều mini game, phòng Challenge realtime, bản đồ hành trình, nhiệm vụ, hệ thống tiền tệ, bảng xếp hạng và bộ sưu tập linh vật.",
+        "en": "A connected mini-game platform with realtime challenges, journey progression, quests, virtual currency, leaderboards and collectible pets."
+      },
+      "summary": {
+        "vi": "Một nền tảng, nhiều trải nghiệm chơi.",
+        "en": "One platform, many playful experiences."
+      },
+      "cover": "",
+      "gallery": [],
+      "technologies": [
+        "Cocos Creator 3.8.6",
+        "TypeScript",
+        "Unity WebGL",
+        "Django",
+        "WebSocket"
+      ],
+      "link": "",
+      "featured": true,
+      "miniGames": [
+        {
+          "id": "stack-2d",
+          "name": "Stack 2D",
+          "type": "Precision / Stack",
+          "description": {
+            "en": "Part of Game Challenge Festival.",
+            "vi": "Mini game thuộc Game Challenge Festival."
+          },
+          "image": ""
+        },
+        {
+          "id": "sky-flap-dragon",
+          "name": "Sky Flap Dragon",
+          "type": "Arcade / Flight",
+          "description": {
+            "en": "Part of Game Challenge Festival.",
+            "vi": "Mini game thuộc Game Challenge Festival."
+          },
+          "image": ""
+        },
+        {
+          "id": "zigzag-dash",
+          "name": "Zigzag Dash",
+          "type": "Reflex / Path",
+          "description": {
+            "en": "Part of Game Challenge Festival.",
+            "vi": "Mini game thuộc Game Challenge Festival."
+          },
+          "image": ""
+        },
+        {
+          "id": "duck-go-home",
+          "name": "Duck Go Home",
+          "type": "Endless Runner",
+          "description": {
+            "en": "Part of Game Challenge Festival.",
+            "vi": "Mini game thuộc Game Challenge Festival."
+          },
+          "image": ""
+        },
+        {
+          "id": "squirrel-chop",
+          "name": "Squirrel Chop",
+          "type": "Timing / Arcade",
+          "description": {
+            "en": "Part of Game Challenge Festival.",
+            "vi": "Mini game thuộc Game Challenge Festival."
+          },
+          "image": ""
+        },
+        {
+          "id": "needle-trail",
+          "name": "Needle Trail",
+          "type": "Precision / Timing",
+          "description": {
+            "en": "Part of Game Challenge Festival.",
+            "vi": "Mini game thuộc Game Challenge Festival."
+          },
+          "image": ""
+        }
+      ],
+      "features": [
+        {
+          "id": "challenge",
+          "title": {
+            "vi": "Phòng thử thách",
+            "en": "Challenge Rooms"
+          },
+          "description": {
+            "vi": "Phòng chơi realtime, ghép người và đồng bộ trạng thái sẵn sàng.",
+            "en": "Realtime rooms, matchmaking and ready-state coordination."
+          },
+          "image": "/art/features/challenge.svg",
+          "imageType": "illustration"
+        },
+        {
+          "id": "journey",
+          "title": {
+            "vi": "Bản đồ hành trình",
+            "en": "Map & Journey"
+          },
+          "description": {
+            "vi": "Tiến trình đảo, các chặng nhiệm vụ và mở khóa vùng đất.",
+            "en": "Island progression with stages, tasks and unlockable regions."
+          },
+          "image": "/art/features/journey.svg",
+          "imageType": "illustration"
+        },
+        {
+          "id": "mission",
+          "title": {
+            "vi": "Nhiệm vụ & thành tựu",
+            "en": "Missions & Achievements"
+          },
+          "description": {
+            "vi": "Mục tiêu ngày/tuần, tiến độ thành tựu và phần thưởng.",
+            "en": "Daily/weekly objectives, milestones and claimable rewards."
+          },
+          "image": "/art/features/mission.svg",
+          "imageType": "illustration"
+        },
+        {
+          "id": "pets",
+          "title": {
+            "vi": "Linh vật & bộ sưu tập",
+            "en": "Pets & Collection"
+          },
+          "description": {
+            "vi": "Đá sưu tầm, trứng gắn với vùng đất và quy trình triệu hồi.",
+            "en": "Collectible stones, region-linked eggs and pet summoning flows."
+          },
+          "image": "/art/features/pets.svg",
+          "imageType": "illustration"
+        },
+        {
+          "id": "wallet",
+          "title": {
+            "vi": "Kinh tế & phần thưởng",
+            "en": "Economy & Rewards"
+          },
+          "description": {
+            "vi": "Coin, diamond, huy hiệu, vé và tương tác nhận thưởng.",
+            "en": "Coin, diamond, badges, tickets and reward interactions."
+          },
+          "image": "/art/features/wallet.svg",
+          "imageType": "illustration"
+        },
+        {
+          "id": "ranking",
+          "title": {
+            "vi": "Xếp hạng & hồ sơ",
+            "en": "Rankings & Profiles"
+          },
+          "description": {
+            "vi": "Giao diện xếp hạng, hồ sơ người chơi và danh hiệu tiến trình.",
+            "en": "Ranking surfaces, personal profiles and progression identity."
+          },
+          "image": "/art/features/ranking.svg",
+          "imageType": "illustration"
+        }
+      ],
+      "displayMode": "wide"
+    },
+    {
+      "id": "archive-1",
+      "name": "2 Player Games: Dog Cat Battle",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Casual",
+        "vi": "Casual"
+      },
+      "description": {
+        "en": "2 Player Games: Dog Cat Battle is a fun and entertaining game with a high level of competitiveness, suitable for players of all ages. Featuring adorable graphics and simple gameplay, the game brings moments of relaxation and laughter for you and your loved ones.",
+        "vi": "Game đối kháng hai người với nhân vật chó và mèo dễ thương. Gameplay đơn giản, nhiều màn chơi và chú trọng phản xạ, chiến thuật khi thi đấu cùng bạn bè."
+      },
+      "summary": {
+        "en": "2 Player Games: Dog Cat Battle is a fun and entertaining game with a high level of competitiveness, suitable for players of all ages. Featuring adorable graphics and simple gameplay, the game brings moments of relaxation and laughter for you and your loved ones.",
+        "vi": "Game đối kháng hai người với nhân vật chó và mèo dễ thương. Gameplay đơn giản, nhiều màn chơi và chú trọng phản xạ, chiến thuật khi thi đấu cùng bạn bè."
+      },
+      "cover": "/assets/Banners/1.png",
+      "gallery": [
+        "/assets/Games/1/1.jpg",
+        "/assets/Games/1/2.jpg",
+        "/assets/Games/1/3.jpg",
+        "/assets/Games/1/4.jpg",
+        "/assets/Games/1/5.jpg",
+        "/assets/Games/1/6.jpg",
+        "/assets/Games/1/7.jpg",
+        "/assets/Games/1/8.jpg",
+        "/assets/Games/1/9.jpg"
+      ],
+      "technologies": [],
+      "link": "https://play.google.com/store/apps/details?id=com.onechain.pawsandclaws",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-2",
+      "name": "Organize Master: Sorting Time",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Casual",
+        "vi": "Casual"
+      },
+      "description": {
+        "en": "Organize Master: Sorting Time is a casual game that brings fun and relaxing moments for players of all ages. The game challenges your ability to organize and arrange items in a logical and orderly manner.",
+        "vi": "Game giải đố sắp xếp vật phẩm về đúng vị trí theo quy luật. Người chơi cần quan sát, phân loại và tổ chức đồ vật một cách hợp lý để hoàn thành thử thách."
+      },
+      "summary": {
+        "en": "Organize Master: Sorting Time is a casual game that brings fun and relaxing moments for players of all ages. The game challenges your ability to organize and arrange items in a logical and orderly manner.",
+        "vi": "Game giải đố sắp xếp vật phẩm về đúng vị trí theo quy luật. Người chơi cần quan sát, phân loại và tổ chức đồ vật một cách hợp lý để hoàn thành thử thách."
+      },
+      "cover": "/assets/Banners/4.png",
+      "gallery": [
+        "/assets/Games/4/1.jpg",
+        "/assets/Games/4/2.jpg",
+        "/assets/Games/4/3.jpg",
+        "/assets/Games/4/4.jpg",
+        "/assets/Games/4/5.jpg",
+        "/assets/Games/4/6.jpg",
+        "/assets/Games/4/7.jpg",
+        "/assets/Games/4/8.jpg"
+      ],
+      "technologies": [],
+      "link": "https://play.google.com/store/apps/details?id=com.little.left.ds",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-3",
+      "name": "Wave Monster",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Casual",
+        "vi": "Casual"
+      },
+      "description": {
+        "en": "Wave Monster is a casual game that offers exciting and thrilling moments for players of all ages. Prepare to battle and survive endless waves of ferocious monsters.",
+        "vi": "Game sinh tồn trước những đợt quái vật liên tiếp. Điều khiển nhân vật, chiến đấu với kẻ địch và cố gắng trụ vững qua các làn sóng tấn công."
+      },
+      "summary": {
+        "en": "Wave Monster is a casual game that offers exciting and thrilling moments for players of all ages. Prepare to battle and survive endless waves of ferocious monsters.",
+        "vi": "Game sinh tồn trước những đợt quái vật liên tiếp. Điều khiển nhân vật, chiến đấu với kẻ địch và cố gắng trụ vững qua các làn sóng tấn công."
+      },
+      "cover": "/assets/Banners/13.png",
+      "gallery": [
+        "/assets/Games/13/1.jpg",
+        "/assets/Games/13/2.jpg",
+        "/assets/Games/13/3.jpg",
+        "/assets/Games/13/4.jpg",
+        "/assets/Games/13/5.jpg",
+        "/assets/Games/13/6.jpg",
+        "/assets/Games/13/7.jpg"
+      ],
+      "technologies": [],
+      "link": "https://lehoanghuy1106.github.io/Wave-Monter-Demo/",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-4",
+      "name": "Idle Mechanics Manager",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Casual",
+        "vi": "Casual"
+      },
+      "description": {
+        "en": "Idle Mechanics Manager is a casual game that combines strategy and management, perfect for players of all ages. Step into the role of a mechanic shop manager and grow your business to new heights.",
+        "vi": "Game mô phỏng quản lý tiệm sửa xe theo cơ chế idle. Tuyển nhân viên, nâng cấp thiết bị, phục vụ khách hàng và mở rộng xưởng để tăng hiệu suất kinh doanh."
+      },
+      "summary": {
+        "en": "Idle Mechanics Manager is a casual game that combines strategy and management, perfect for players of all ages. Step into the role of a mechanic shop manager and grow your business to new heights.",
+        "vi": "Game mô phỏng quản lý tiệm sửa xe theo cơ chế idle. Tuyển nhân viên, nâng cấp thiết bị, phục vụ khách hàng và mở rộng xưởng để tăng hiệu suất kinh doanh."
+      },
+      "cover": "/assets/Banners/16.png",
+      "gallery": [
+        "/assets/Games/16/1.jpg",
+        "/assets/Games/16/2.jpg",
+        "/assets/Games/16/3.jpg",
+        "/assets/Games/16/4.jpg",
+        "/assets/Games/16/5.jpg",
+        "/assets/Games/16/6.jpg",
+        "/assets/Games/16/7.jpg"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-5",
+      "name": "capybara Merge",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Capybara Merge is a delightful hypercasual game perfect for players of all ages. Dive into the fun world of capybaras and merge your way to build the ultimate capybara collection.",
+        "vi": "Game ghép những chú capybara giống nhau để mở khóa các phiên bản mới. Tập trung vào thao tác đơn giản, chiến thuật sắp xếp và tiến trình sưu tập."
+      },
+      "summary": {
+        "en": "Capybara Merge is a delightful hypercasual game perfect for players of all ages. Dive into the fun world of capybaras and merge your way to build the ultimate capybara collection.",
+        "vi": "Game ghép những chú capybara giống nhau để mở khóa các phiên bản mới. Tập trung vào thao tác đơn giản, chiến thuật sắp xếp và tiến trình sưu tập."
+      },
+      "cover": "/assets/Banners/17.png",
+      "gallery": [
+        "/assets/Games/17/1.jpg",
+        "/assets/Games/17/2.jpg",
+        "/assets/Games/17/3.jpg",
+        "/assets/Games/17/4.jpg",
+        "/assets/Games/17/5.jpg",
+        "/assets/Games/17/6.jpg",
+        "/assets/Games/17/7.jpg"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-6",
+      "name": "Happy Green Farm",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Simulation",
+        "vi": "Simulation"
+      },
+      "description": {
+        "en": "Happy Green Farm is a relaxing farming simulation game where players can build and manage their own vibrant countryside farm. In Happy Green Farm, you can grow a variety of crops, take care of animals, and expand your farm step by step.",
+        "vi": "Game mô phỏng nông trại, cho phép trồng cây, chăn nuôi, thu hoạch và bán sản phẩm. Người chơi mở rộng trang trại, quản lý tài nguyên và xây dựng chuỗi sản xuất."
+      },
+      "summary": {
+        "en": "Happy Green Farm is a relaxing farming simulation game where players can build and manage their own vibrant countryside farm. In Happy Green Farm, you can grow a variety of crops, take care of animals, and expand your farm step by step.",
+        "vi": "Game mô phỏng nông trại, cho phép trồng cây, chăn nuôi, thu hoạch và bán sản phẩm. Người chơi mở rộng trang trại, quản lý tài nguyên và xây dựng chuỗi sản xuất."
+      },
+      "cover": "/assets/Banners/18.png",
+      "gallery": [
+        "/assets/Games/18/acc8.png",
+        "/assets/Games/18/acc14.png",
+        "/assets/Games/18/acc17.png",
+        "/assets/Games/18/acc18.png",
+        "/assets/Games/18/acc19.png",
+        "/assets/Games/18/acc22.png",
+        "/assets/Games/18/acc39.png",
+        "/assets/Games/18/acc40.png",
+        "/assets/Games/18/acc41.png",
+        "/assets/Games/18/acc48.png",
+        "/assets/Games/18/acc49.png",
+        "/assets/Games/18/acc53.png",
+        "/assets/Games/18/acc61.png",
+        "/assets/Games/18/acc63.png",
+        "/assets/Games/18/acc72.png",
+        "/assets/Games/18/acc73.png",
+        "/assets/Games/18/acc77.png",
+        "/assets/Games/18/acc82.png",
+        "/assets/Games/18/acc83.png",
+        "/assets/Games/18/acc87.png",
+        "/assets/Games/18/acc88.png",
+        "/assets/Games/18/acc97.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-7",
+      "name": "Clime Climb",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Arcade",
+        "vi": "Arcade"
+      },
+      "description": {
+        "en": "Clime Climb is a fast-paced survival arcade game where you control a small slime on an endless journey across diverse environments. From forests and icy lands to oceans and volcanoes, each area introduces new challenges that test your reflexes and decision-making.",
+        "vi": "Game arcade sinh tồn, điều khiển một sinh vật slime đi qua rừng, băng tuyết, đại dương và núi lửa. Đòi hỏi căn lực di chuyển, né nguy hiểm và thu thập tài nguyên."
+      },
+      "summary": {
+        "en": "Clime Climb is a fast-paced survival arcade game where you control a small slime on an endless journey across diverse environments. From forests and icy lands to oceans and volcanoes, each area introduces new challenges that test your reflexes and decision-making.",
+        "vi": "Game arcade sinh tồn, điều khiển một sinh vật slime đi qua rừng, băng tuyết, đại dương và núi lửa. Đòi hỏi căn lực di chuyển, né nguy hiểm và thu thập tài nguyên."
+      },
+      "cover": "/assets/Banners/21.png",
+      "gallery": [
+        "/assets/Games/21/acc12.png",
+        "/assets/Games/21/acc27.png",
+        "/assets/Games/21/acc30.png",
+        "/assets/Games/21/acc53.png",
+        "/assets/Games/21/acc59.png",
+        "/assets/Games/21/acc71.png",
+        "/assets/Games/21/acc85.png",
+        "/assets/Games/21/acc90.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-8",
+      "name": "Sweet Tiny Heroes",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Puzzle",
+        "vi": "Puzzle"
+      },
+      "description": {
+        "en": "Sweet Tiny Heroes is a puzzle-adventure game where players guide a clever ant through challenging levels filled with obstacles and enemies. Each level requires strategic thinking, careful planning, and precise execution to reach the goal.",
+        "vi": "Game giải đố phiêu lưu, dẫn đường cho một chú kiến qua các màn chơi có chướng ngại và kẻ địch. Mỗi màn cần quan sát, lên kế hoạch và thao tác chính xác."
+      },
+      "summary": {
+        "en": "Sweet Tiny Heroes is a puzzle-adventure game where players guide a clever ant through challenging levels filled with obstacles and enemies. Each level requires strategic thinking, careful planning, and precise execution to reach the goal.",
+        "vi": "Game giải đố phiêu lưu, dẫn đường cho một chú kiến qua các màn chơi có chướng ngại và kẻ địch. Mỗi màn cần quan sát, lên kế hoạch và thao tác chính xác."
+      },
+      "cover": "/assets/Banners/23.png",
+      "gallery": [
+        "/assets/Games/23/acc92.png",
+        "/assets/Games/23/acc27.png",
+        "/assets/Games/23/acc33.png",
+        "/assets/Games/23/acc37.png",
+        "/assets/Games/23/acc41.png",
+        "/assets/Games/23/acc75.png",
+        "/assets/Games/23/acc77.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-9",
+      "name": "Long Arm Thief",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Puzzle",
+        "vi": "Puzzle"
+      },
+      "description": {
+        "en": "Long Arm Thief is a strategic action-puzzle game where players control a thief with a unique long-arm hook to steal valuables. Each level challenges your timing, precision, and decision-making as you grab gold and diamonds while avoiding guards and obstacles.",
+        "vi": "Game puzzle hành động về một tên trộm dùng cánh tay móc dài lấy vàng và kim cương. Người chơi phải tính thời điểm, hướng đi và tránh các cạm bẫy."
+      },
+      "summary": {
+        "en": "Long Arm Thief is a strategic action-puzzle game where players control a thief with a unique long-arm hook to steal valuables. Each level challenges your timing, precision, and decision-making as you grab gold and diamonds while avoiding guards and obstacles.",
+        "vi": "Game puzzle hành động về một tên trộm dùng cánh tay móc dài lấy vàng và kim cương. Người chơi phải tính thời điểm, hướng đi và tránh các cạm bẫy."
+      },
+      "cover": "/assets/Banners/24.png",
+      "gallery": [
+        "/assets/Games/24/1.png",
+        "/assets/Games/24/2.png",
+        "/assets/Games/24/3.png",
+        "/assets/Games/24/4.png",
+        "/assets/Games/24/5.png",
+        "/assets/Games/24/6.png",
+        "/assets/Games/24/7.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-10",
+      "name": "Don't Drop My Burger",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Casual",
+        "vi": "Casual"
+      },
+      "description": {
+        "en": "Don't Drop My Burger is a fast-paced memory and reaction game where players take on the role of a burger chef serving demanding customers. Carefully observe each order, remember the required toppings, and quickly select the correct ingredients before time runs out.",
+        "vi": "Game phục vụ bánh burger kết hợp ghi nhớ và phản xạ. Quan sát yêu cầu của khách, nhớ nguyên liệu và lắp đúng đơn hàng trong thời gian ngắn."
+      },
+      "summary": {
+        "en": "Don't Drop My Burger is a fast-paced memory and reaction game where players take on the role of a burger chef serving demanding customers. Carefully observe each order, remember the required toppings, and quickly select the correct ingredients before time runs out.",
+        "vi": "Game phục vụ bánh burger kết hợp ghi nhớ và phản xạ. Quan sát yêu cầu của khách, nhớ nguyên liệu và lắp đúng đơn hàng trong thời gian ngắn."
+      },
+      "cover": "/assets/Banners/25.png",
+      "gallery": [
+        "/assets/Games/25/1.png",
+        "/assets/Games/25/2.png",
+        "/assets/Games/25/3.png",
+        "/assets/Games/25/4.png",
+        "/assets/Games/25/5.png",
+        "/assets/Games/25/6.png",
+        "/assets/Games/25/7.png",
+        "/assets/Games/25/8.png",
+        "/assets/Games/25/9.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-11",
+      "name": "Roll Puzzle",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Roll Puzzle is a hypercasual game suitable for players of all ages. With simple yet challenging gameplay, the game provides a fun and relaxing experience for everyone.",
+        "vi": "Game giải đố tô màu tranh bằng cách lăn các khối theo hướng phù hợp. Người chơi tính thứ tự đường đi để hoàn thiện hình giống bản mẫu."
+      },
+      "summary": {
+        "en": "Roll Puzzle is a hypercasual game suitable for players of all ages. With simple yet challenging gameplay, the game provides a fun and relaxing experience for everyone.",
+        "vi": "Game giải đố tô màu tranh bằng cách lăn các khối theo hướng phù hợp. Người chơi tính thứ tự đường đi để hoàn thiện hình giống bản mẫu."
+      },
+      "cover": "/assets/Banners/2.png",
+      "gallery": [
+        "/assets/Games/2/1.jpg",
+        "/assets/Games/2/2.jpg",
+        "/assets/Games/2/3.jpg",
+        "/assets/Games/2/4.jpg",
+        "/assets/Games/2/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://play.google.com/store/apps/details?id=game.onechain.rollpuzzle",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-12",
+      "name": "Emoji Quizz Puzzle",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Emoji Quizz Puzzle is a fun and entertaining game, perfect for players of all ages. In this game, you will face unique challenges where your main task is to match emojis to create a phrase, song title, movie name, or a specific meaning.",
+        "vi": "Game đoán nội dung bằng cách kết hợp các biểu tượng emoji. Thử tìm cụm từ, bài hát, tên phim hoặc ý nghĩa ẩn sau những hình ảnh gợi ý."
+      },
+      "summary": {
+        "en": "Emoji Quizz Puzzle is a fun and entertaining game, perfect for players of all ages. In this game, you will face unique challenges where your main task is to match emojis to create a phrase, song title, movie name, or a specific meaning.",
+        "vi": "Game đoán nội dung bằng cách kết hợp các biểu tượng emoji. Thử tìm cụm từ, bài hát, tên phim hoặc ý nghĩa ẩn sau những hình ảnh gợi ý."
+      },
+      "cover": "/assets/Banners/3.png",
+      "gallery": [
+        "/assets/Games/3/1.jpg",
+        "/assets/Games/3/2.jpg",
+        "/assets/Games/3/3.jpg",
+        "/assets/Games/3/4.jpg",
+        "/assets/Games/3/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Emoji-Guess-374003/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-13",
+      "name": "Dumpling Jumpling",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Dumpling Jumpling is a fun and entertaining casual game suitable for players of all ages. The game offers relaxing moments with simple yet challenging gameplay.",
+        "vi": "Game casual điều khiển một chiếc bánh bao đáng yêu nhảy vượt chướng ngại vật. Cách chơi trực quan, tập trung vào canh thời điểm và phản xạ."
+      },
+      "summary": {
+        "en": "Dumpling Jumpling is a fun and entertaining casual game suitable for players of all ages. The game offers relaxing moments with simple yet challenging gameplay.",
+        "vi": "Game casual điều khiển một chiếc bánh bao đáng yêu nhảy vượt chướng ngại vật. Cách chơi trực quan, tập trung vào canh thời điểm và phản xạ."
+      },
+      "cover": "/assets/Banners/5.png",
+      "gallery": [
+        "/assets/Games/5/1.jpg",
+        "/assets/Games/5/2.jpg",
+        "/assets/Games/5/3.jpg",
+        "/assets/Games/5/4.jpg",
+        "/assets/Games/5/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Dumpling-Jumpling-449343/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-14",
+      "name": "Paws & Claws : Golden Thief",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Golden Thief is a hypercasual game suitable for players of all ages. The game offers a thrilling and entertaining experience as you take on the role of a clever thief.",
+        "vi": "Mini game nhập vai tên trộm thu thập kho báu. Người chơi phải di chuyển khéo léo, canh thời điểm và vượt qua chướng ngại trên đường lấy vàng."
+      },
+      "summary": {
+        "en": "Paws & Claws: Golden Thief is a hypercasual game suitable for players of all ages. The game offers a thrilling and entertaining experience as you take on the role of a clever thief.",
+        "vi": "Mini game nhập vai tên trộm thu thập kho báu. Người chơi phải di chuyển khéo léo, canh thời điểm và vượt qua chướng ngại trên đường lấy vàng."
+      },
+      "cover": "/assets/Banners/6.png",
+      "gallery": [
+        "/assets/Games/6/1.jpg",
+        "/assets/Games/6/2.jpg",
+        "/assets/Games/6/3.jpg",
+        "/assets/Games/6/4.jpg",
+        "/assets/Games/6/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Golden-thief-158164/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-15",
+      "name": "Paws & Claws : Pirate Cove",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Pirate Cove is a hypercasual game that offers thrilling and exciting moments for players of all ages. The game takes you on an adventurous journey as a brave explorer searching for treasures across the vast ocean.",
+        "vi": "Mini game phiêu lưu chủ đề cướp biển, lên đường khám phá đại dương và tìm kiếm kho báu. Gameplay nhẹ nhàng với những thử thách trong hành trình."
+      },
+      "summary": {
+        "en": "Paws & Claws: Pirate Cove is a hypercasual game that offers thrilling and exciting moments for players of all ages. The game takes you on an adventurous journey as a brave explorer searching for treasures across the vast ocean.",
+        "vi": "Mini game phiêu lưu chủ đề cướp biển, lên đường khám phá đại dương và tìm kiếm kho báu. Gameplay nhẹ nhàng với những thử thách trong hành trình."
+      },
+      "cover": "/assets/Banners/7.png",
+      "gallery": [
+        "/assets/Games/7/1.jpg",
+        "/assets/Games/7/2.jpg",
+        "/assets/Games/7/3.jpg",
+        "/assets/Games/7/4.jpg",
+        "/assets/Games/7/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Pirate-cove-682959/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-16",
+      "name": "Paws & Claws : Star War",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Star War is an action-packed hypercasual game designed for players of all ages. The game takes you into the vastness of space, where thrilling battles between flying saucers unfold.",
+        "vi": "Mini game hành động ngoài không gian. Điều khiển phi thuyền bay, đối đầu các mục tiêu và xử lý tình huống qua những trận chiến tốc độ cao."
+      },
+      "summary": {
+        "en": "Paws & Claws: Star War is an action-packed hypercasual game designed for players of all ages. The game takes you into the vastness of space, where thrilling battles between flying saucers unfold.",
+        "vi": "Mini game hành động ngoài không gian. Điều khiển phi thuyền bay, đối đầu các mục tiêu và xử lý tình huống qua những trận chiến tốc độ cao."
+      },
+      "cover": "/assets/Banners/8.png",
+      "gallery": [
+        "/assets/Games/8/1.jpg",
+        "/assets/Games/8/2.jpg",
+        "/assets/Games/8/3.jpg",
+        "/assets/Games/8/4.jpg",
+        "/assets/Games/8/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Star-War-178263/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-17",
+      "name": "Paws & Claws : Fishing King",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Fishing King is a fun and addictive hypercasual game suitable for players of all ages. Dive into the exciting world of fishing, where your goal is to catch as many fish as possible within a limited time.",
+        "vi": "Mini game câu cá tính điểm trong thời gian giới hạn. Người chơi cần thao tác nhanh, nhắm mục tiêu và bắt được càng nhiều cá càng tốt."
+      },
+      "summary": {
+        "en": "Paws & Claws: Fishing King is a fun and addictive hypercasual game suitable for players of all ages. Dive into the exciting world of fishing, where your goal is to catch as many fish as possible within a limited time.",
+        "vi": "Mini game câu cá tính điểm trong thời gian giới hạn. Người chơi cần thao tác nhanh, nhắm mục tiêu và bắt được càng nhiều cá càng tốt."
+      },
+      "cover": "/assets/Banners/9.png",
+      "gallery": [
+        "/assets/Games/9/1.jpg",
+        "/assets/Games/9/2.jpg",
+        "/assets/Games/9/3.jpg",
+        "/assets/Games/9/4.jpg",
+        "/assets/Games/9/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Fishing-King-639750/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-18",
+      "name": "Paws & Claws : Super Hero Legend",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Super Hero Legend is an engaging hypercasual game designed for players of all ages. Step into the shoes of a superhero as you embark on a thrilling mission to collect sushi while navigating through challenging obstacles.",
+        "vi": "Mini game nhập vai siêu anh hùng thu thập sushi trong hành trình vượt chướng ngại vật. Kết hợp điều khiển đơn giản và phản xạ liên tục."
+      },
+      "summary": {
+        "en": "Paws & Claws: Super Hero Legend is an engaging hypercasual game designed for players of all ages. Step into the shoes of a superhero as you embark on a thrilling mission to collect sushi while navigating through challenging obstacles.",
+        "vi": "Mini game nhập vai siêu anh hùng thu thập sushi trong hành trình vượt chướng ngại vật. Kết hợp điều khiển đơn giản và phản xạ liên tục."
+      },
+      "cover": "/assets/Banners/10.png",
+      "gallery": [
+        "/assets/Games/10/1.jpg",
+        "/assets/Games/10/2.jpg",
+        "/assets/Games/10/3.jpg",
+        "/assets/Games/10/4.jpg",
+        "/assets/Games/10/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Superhero-Legends-114383/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-19",
+      "name": "Paws & Claws : Zombie Hunter",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Zombie Hunter is a casual and entertaining game suitable for players of all ages. Dive into an action-packed adventure where your goal is to hunt down zombie moles in an exciting one-minute challenge.",
+        "vi": "Mini game hành động săn chuột chũi zombie trong thử thách một phút. Người chơi phản xạ nhanh và cố gắng đạt điểm số cao nhất."
+      },
+      "summary": {
+        "en": "Paws & Claws: Zombie Hunter is a casual and entertaining game suitable for players of all ages. Dive into an action-packed adventure where your goal is to hunt down zombie moles in an exciting one-minute challenge.",
+        "vi": "Mini game hành động săn chuột chũi zombie trong thử thách một phút. Người chơi phản xạ nhanh và cố gắng đạt điểm số cao nhất."
+      },
+      "cover": "/assets/Banners/11.png",
+      "gallery": [
+        "/assets/Games/11/1.jpg",
+        "/assets/Games/11/2.jpg",
+        "/assets/Games/11/3.jpg",
+        "/assets/Games/11/4.jpg",
+        "/assets/Games/11/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Zombie-Hunters-372070/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-20",
+      "name": "Paws & Claws : Magic Ors Quest",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Paws & Claws: Zombie Hunter is an exciting casual game designed for players of all ages. Step into the role of a defender as you protect the border from waves of invading ghosts with your powerful energy orbs.",
+        "vi": "Mini game phòng thủ, dùng những quả cầu năng lượng để bảo vệ ranh giới trước các đợt ma quái tấn công. Cần canh thời điểm và chọn mục tiêu chính xác."
+      },
+      "summary": {
+        "en": "Paws & Claws: Zombie Hunter is an exciting casual game designed for players of all ages. Step into the role of a defender as you protect the border from waves of invading ghosts with your powerful energy orbs.",
+        "vi": "Mini game phòng thủ, dùng những quả cầu năng lượng để bảo vệ ranh giới trước các đợt ma quái tấn công. Cần canh thời điểm và chọn mục tiêu chính xác."
+      },
+      "cover": "/assets/Banners/12.png",
+      "gallery": [
+        "/assets/Games/12/1.jpg",
+        "/assets/Games/12/2.jpg",
+        "/assets/Games/12/3.jpg",
+        "/assets/Games/12/4.jpg",
+        "/assets/Games/12/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://app.saworld.io/vi/game/Magic-Orb-Quest-203553/play",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-21",
+      "name": "Racing Lengends 3d",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Racing Legends 3D is an adrenaline-pumping hypercasual game perfect for players of all ages. Get ready to race through thrilling tracks filled with challenging obstacles and intense competition.",
+        "vi": "Game đua xe 3D với các cung đường đầy chướng ngại. Người chơi điều khiển phương tiện, né vật cản và cố gắng hoàn thành đường đua."
+      },
+      "summary": {
+        "en": "Racing Legends 3D is an adrenaline-pumping hypercasual game perfect for players of all ages. Get ready to race through thrilling tracks filled with challenging obstacles and intense competition.",
+        "vi": "Game đua xe 3D với các cung đường đầy chướng ngại. Người chơi điều khiển phương tiện, né vật cản và cố gắng hoàn thành đường đua."
+      },
+      "cover": "/assets/Banners/14.png",
+      "gallery": [
+        "/assets/Games/14/1.jpg",
+        "/assets/Games/14/2.jpg",
+        "/assets/Games/14/3.jpg"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-22",
+      "name": "Duck Race",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Duck Race is a fun and lighthearted hypercasual game perfect for players of all ages. Dive into an exciting world of duck racing and compete to be the fastest on the track.",
+        "vi": "Game đua vịt vui nhộn, điều khiển nhân vật vượt qua những đường đua nhiều chướng ngại. Nhấn mạnh phản xạ, tốc độ và lựa chọn đường đi."
+      },
+      "summary": {
+        "en": "Duck Race is a fun and lighthearted hypercasual game perfect for players of all ages. Dive into an exciting world of duck racing and compete to be the fastest on the track.",
+        "vi": "Game đua vịt vui nhộn, điều khiển nhân vật vượt qua những đường đua nhiều chướng ngại. Nhấn mạnh phản xạ, tốc độ và lựa chọn đường đi."
+      },
+      "cover": "/assets/Banners/15.png",
+      "gallery": [
+        "/assets/Games/15/1.jpg",
+        "/assets/Games/15/2.jpg",
+        "/assets/Games/15/3.jpg",
+        "/assets/Games/15/4.jpg",
+        "/assets/Games/15/5.jpg"
+      ],
+      "technologies": [],
+      "link": "https://lehoanghuy1106.github.io/raceduck-demo/",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-23",
+      "name": "Isles of Behemoths",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Adventure",
+        "vi": "Adventure"
+      },
+      "description": {
+        "en": "Monster Math Awakening is a unique blend of pet raising, adventure, and math-based brain training. Explore magical islands, hatch and nurture Behemoths, and help them grow by solving engaging math challenges.",
+        "vi": "Game phiêu lưu kết hợp nuôi dưỡng linh thú và giải đố toán học. Khám phá các hòn đảo kỳ ảo, ấp trứng, chăm sóc sinh vật và tiến bộ bằng thử thách trí tuệ."
+      },
+      "summary": {
+        "en": "Monster Math Awakening is a unique blend of pet raising, adventure, and math-based brain training. Explore magical islands, hatch and nurture Behemoths, and help them grow by solving engaging math challenges.",
+        "vi": "Game phiêu lưu kết hợp nuôi dưỡng linh thú và giải đố toán học. Khám phá các hòn đảo kỳ ảo, ấp trứng, chăm sóc sinh vật và tiến bộ bằng thử thách trí tuệ."
+      },
+      "cover": "/assets/Banners/19.png",
+      "gallery": [
+        "/assets/Games/19/acc6.png",
+        "/assets/Games/19/acc10.png",
+        "/assets/Games/19/acc18.png",
+        "/assets/Games/19/acc20.png",
+        "/assets/Games/19/acc22.png",
+        "/assets/Games/19/acc28.png",
+        "/assets/Games/19/acc38.png",
+        "/assets/Games/19/acc69.png",
+        "/assets/Games/19/acc91.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-24",
+      "name": "Don't Throw Trash Around!",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Hypercasual",
+        "vi": "Hypercasual"
+      },
+      "description": {
+        "en": "Don't Throw Trash Around! is a fast-paced and addictive highscore arcade game where players must keep the room clean by catching flying objects.",
+        "vi": "Game arcade tính điểm, điều khiển chiếc hộp hứng những đồ vật bị một con ma tinh nghịch ném ra. Tốc độ tăng dần, đòi hỏi quan sát và phản xạ chính xác."
+      },
+      "summary": {
+        "en": "Don't Throw Trash Around! is a fast-paced and addictive highscore arcade game where players must keep the room clean by catching flying objects.",
+        "vi": "Game arcade tính điểm, điều khiển chiếc hộp hứng những đồ vật bị một con ma tinh nghịch ném ra. Tốc độ tăng dần, đòi hỏi quan sát và phản xạ chính xác."
+      },
+      "cover": "/assets/Banners/20.png",
+      "gallery": [
+        "/assets/Games/20/acc41.png",
+        "/assets/Games/20/acc75.png",
+        "/assets/Games/20/acc21.png",
+        "/assets/Games/20/acc42.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    },
+    {
+      "id": "archive-25",
+      "name": "Hush Puppies Challenge",
+      "year": "Archive",
+      "kind": "archive",
+      "status": "archived",
+      "category": {
+        "en": "Casual",
+        "vi": "Casual"
+      },
+      "description": {
+        "en": "Hush Puppies Challenge is a fast-paced reaction and pet-care game where players must quickly feed puppies before they get upset. Each puppy requests a specific item, and you must react fast to find and deliver the correct food.",
+        "vi": "Game chăm sóc thú cưng và phản xạ nhanh. Cho những chú chó con ăn đúng món được yêu cầu trước khi chúng mất kiên nhẫn."
+      },
+      "summary": {
+        "en": "Hush Puppies Challenge is a fast-paced reaction and pet-care game where players must quickly feed puppies before they get upset. Each puppy requests a specific item, and you must react fast to find and deliver the correct food.",
+        "vi": "Game chăm sóc thú cưng và phản xạ nhanh. Cho những chú chó con ăn đúng món được yêu cầu trước khi chúng mất kiên nhẫn."
+      },
+      "cover": "/assets/Banners/22.png",
+      "gallery": [
+        "/assets/Games/22/acc19.png",
+        "/assets/Games/22/acc22.png",
+        "/assets/Games/22/acc62.png",
+        "/assets/Games/22/acc83.png",
+        "/assets/Games/22/acc84.png",
+        "/assets/Games/22/acc85.png"
+      ],
+      "technologies": [],
+      "link": "",
+      "featured": false,
+      "miniGames": [],
+      "displayMode": "phone"
+    }
+  ],
+  "skills": [
+    {
+      "id": "game",
+      "name": {
+        "vi": "Game Development",
+        "en": "Game Development"
+      },
+      "description": {
+        "vi": "Phát triển game 2D, 2.5D và 3D trên Unity, Cocos Creator và Native, hỗ trợ cả game online và offline trên Mobile, Web và PC. Có khả năng lên ý tưởng, sáng tạo gameplay, thiết kế và xây dựng các cơ chế chơi, hệ thống nhiệm vụ, tiến trình, phần thưởng, kinh tế trong game và cân bằng độ khó. Phát triển hệ thống multiplayer, realtime, tích hợp API, kết nối Backend, quản lý dữ liệu người chơi và xây dựng các tính năng tương tác. Chú trọng trải nghiệm người dùng (UI/UX), hiệu ứng, animation, tối ưu hiệu năng và hoàn thiện sản phẩm từ prototype đến phiên bản phát hành.",
+        "en": "Developing 2D, 2.5D, and 3D games using Unity, Cocos Creator, and native technologies, supporting both online and offline gameplay across Mobile, Web, and PC. Experienced in game concept development, creative gameplay design, core mechanics, mission systems, progression, rewards, in-game economies, difficulty balancing, and player engagement. Capable of implementing multiplayer and real-time systems, API integration, backend connectivity, player data management, and interactive features. Focused on intuitive UI/UX, visual effects, animations, performance optimization, and delivering polished game experiences from prototype to production release."
+      },
+      "items": [
+        "Unity",
+        "C#",
+        "Cocos Creator 3.8.6",
+        "TypeScript",
+        "JavaScript",
+        "Native Game Development",
+        "Android / iOS",
+        "HTML5 / WebGL",
+        "2D / 2.5D / 3D Game Development",
+        "Mobile / Web / PC Games",
+        "Online / Offline Games",
+        "Gameplay Programming",
+        "Game Mechanics Design",
+        "Game Systems Architecture",
+        "Game Economy & Balancing",
+        "Level Design & Difficulty Balancing",
+        "Progression & Reward Systems",
+        "Mission & Achievement Systems",
+        "Multiplayer / Realtime Client",
+        "Game UI / UX",
+        "Animation & Visual Effects",
+        "Physics & Collision Systems",
+        "Input & Touch Controls",
+        "Performance Optimization",
+        "Asset & Resource Management",
+        "Asset Bundles / Hot Updates",
+        "Debugging & Profiling",
+        "Game Prototyping",
+        "Game Publishing & Deployment"
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": {
+        "vi": "Frontend",
+        "en": "Frontend"
+      },
+      "description": {
+        "vi": "Phát triển website và ứng dụng web hiện đại bằng React, TypeScript, JavaScript, HTML và CSS. Có khả năng thiết kế, xây dựng giao diện UI/UX trực quan, responsive trên Desktop, Tablet và Mobile. Triển khai các thành phần giao diện tương tác, quản lý trạng thái ứng dụng, xử lý dữ liệu và logic phía client, tích hợp API và xây dựng hệ thống component có khả năng tái sử dụng. Chú trọng animation, hiệu ứng chuyển cảnh, tối ưu hiệu năng, tốc độ tải trang, khả năng tương thích đa trình duyệt và trải nghiệm người dùng. Có khả năng phát triển sản phẩm từ ý tưởng, prototype đến giao diện hoàn chỉnh.",
+        "en": "Developing modern websites and web applications using React, TypeScript, JavaScript, HTML, and CSS. Skilled in building intuitive, interactive, and responsive user interfaces across Desktop, Tablet, and Mobile devices. Experienced in reusable component architecture, application state management, client-side logic, data handling, and API integration. Focused on UI/UX design, smooth animations, transitions, performance optimization, fast loading, cross-browser compatibility, and seamless user experiences. Capable of transforming concepts and prototypes into polished, functional web applications."
+      },
+      "items": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML / CSS",
+        "Responsive Design",
+        "UI / UX",
+        "REST API Integration",
+        "Web Performance Optimization"
+      ]
+    },
+    {
+      "id": "backend",
+      "name": {
+        "vi": "Backend",
+        "en": "Backend"
+      },
+      "description": {
+        "vi": "Phát triển Backend bằng Python, Django và Node.js, xây dựng hệ thống máy chủ, REST API và xử lý logic nghiệp vụ cho ứng dụng Web, Mobile và Game Online. Có khả năng thiết kế cơ sở dữ liệu, xây dựng hệ thống quản trị, xác thực và phân quyền người dùng, xử lý giao dịch, đồng bộ dữ liệu và giao tiếp realtime. Chú trọng bảo mật, tối ưu hiệu năng và khả năng mở rộng hệ thống.",
+        "en": "Backend development using Python, Django, and Node.js, building server-side systems, RESTful APIs, and business logic for Web, Mobile, and Online Games. Experienced in database design, administration systems, authentication, authorization, transaction processing, data synchronization, and real-time communication. Focused on security, performance optimization, and system scalability."
+      },
+      "items": [
+        "Python",
+        "Django",
+        "Node.js",
+        "REST API",
+        "WebSocket",
+        "Database Design",
+        "Authentication & Authorization",
+        "Server-Side Development"
+      ]
+    },
+    {
+      "id": "data",
+      "name": {
+        "vi": "Database & Systems",
+        "en": "Database & Systems"
+      },
+      "description": {
+        "vi": "Mô hình dữ liệu, kiến trúc hệ thống và tích hợp.",
+        "en": "Data models, architecture and system integration."
+      },
+      "items": [
+        "MySQL",
+        "SQL Server",
+        "MongoDB",
+        "SQL",
+        "Client / Server",
+        "System Integration"
+      ]
+    },
+    {
+      "id": "ai",
+      "name": {
+        "vi": "AI & Automation",
+        "en": "AI & Automation"
+      },
+      "description": {
+        "vi": "Ứng dụng các công cụ AI vào quy trình phát triển phần mềm, game và sản phẩm kỹ thuật số. Có khả năng sử dụng AI để hỗ trợ lập trình, phân tích và tối ưu mã nguồn, xử lý lỗi, xây dựng giao diện, thiết kế gameplay và phát triển ý tưởng sáng tạo. Thành thạo phương pháp Prompt Engineering, AI-Assisted Development và Vibe Coding nhằm tăng tốc quá trình phát triển, tự động hóa các tác vụ lặp lại, nâng cao hiệu suất làm việc và rút ngắn thời gian hoàn thiện sản phẩm.",
+        "en": "Leveraging AI tools to enhance software development, game production, and digital product creation. Skilled in AI-assisted coding, code analysis, debugging, UI development, gameplay design, and creative ideation. Applying Prompt Engineering, AI-Assisted Development, and Vibe Coding to accelerate development workflows, automate repetitive tasks, improve productivity, and streamline the process from concept to finished product."
+      },
+      "items": [
+        "ChatGPT",
+        "Claude",
+        "Gemini",
+        "GitHub Copilot",
+        "Prompt Engineering",
+        "AI-Assisted Coding",
+        "Vibe Coding",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "tools",
+      "name": {
+        "vi": "Tools & Workflow",
+        "en": "Tools & Workflow"
+      },
+      "description": {
+        "vi": "Công cụ phát triển, cộng tác, tạo prototype và tinh chỉnh UI.",
+        "en": "Tools for building, collaborating, prototyping and refining UI."
+      },
+      "items": [
+        "Git / GitHub",
+        "Figma",
+        "Adobe Photoshop",
+        "Python tooling",
+        "Debugging",
+        "Prototyping"
+      ]
+    }
+  ],
+  "socials": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/LeHoangHuy1106"
+    },
+    {
+      "id": "telegram",
+      "label": "Telegram",
+      "url": "https://telegram.me/Lhhuy_dev"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/BCA.mai.mai/"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@sakalisofbna548"
+    },
+    {
+      "id": "zalo",
+      "label": "Zalo",
+      "url": "https://zalo.me/0868781600"
+    },
+    {
+      "id": "website",
+      "label": "Website",
+      "url": "https://benkstudio.net"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": ""
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "url": ""
+    },
+    {
+      "id": "discord",
+      "label": "Discord",
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "independent",
+      "period": "2024 — Present",
+      "role": {
+        "vi": "Freelance Game Developer / Team Lead",
+        "en": "Freelance Game Developer / Team Lead"
+      },
+      "company": "Independent",
+      "description": {
+        "vi": "Phát triển game web/mobile, xây dựng hệ thống, quản lý kỹ thuật dự án và phối hợp khách hàng.",
+        "en": "Web/mobile game development, project technical direction and client collaboration."
+      }
+    },
+    {
+      "id": "cocos-onechain",
+      "period": "08/2023 — 04/2024",
+      "role": {
+        "vi": "Cocos Creator Developer",
+        "en": "Cocos Creator Developer"
+      },
+      "company": "OneChain Studio",
+      "description": {
+        "vi": "Phát triển chức năng game web bằng Cocos Creator, debug và cải tiến UX.",
+        "en": "Developed web game functionality with Cocos Creator, troubleshooting and UX refinement."
+      }
+    },
+    {
+      "id": "unity-onechain",
+      "period": "02/2023 — 08/2023",
+      "role": {
+        "vi": "Unity Developer",
+        "en": "Unity Developer"
+      },
+      "company": "OneChain Studio",
+      "description": {
+        "vi": "Phát triển mini game bằng Unity, kiểm thử và cộng tác phát triển tính năng.",
+        "en": "Developed Unity mini games, testing and cross-team feature work."
+      }
+    }
+  ]
+}
